@@ -1,0 +1,78 @@
+Listas
+======
+Se tiene dos tipos de lista
+1ra Lista Ordenada
+    <ol></ol> -> ordered list  
+    Ejemplo:
+        1. Primer Semestre
+        2. Segundo Semestre
+        3. Tercer Semestre  
+2da Lista Desordenada
+    <ul></ul> -> unorderded list
+        * Rojo
+        * Azul
+        * Verde
+
+<li></li> Sirve para ambos tanto para ol y ul
+<li></li> -> item list
+
+Investigacion
+-------------
+<dl></dl>
+<dt></dt>
+<dd></dd>
+
+Enlaces (hipervinculos)
+=======================
+Sirve para enlazar a otra pagina de internet,
+tambien sirve para la misma pagina web, direccion de correo,
+o cualquier otra URL.
+
+<a></a> -> anchor
+<a href=""></a>
+
+Ejemplo:
+<a href="http://www.google.com.bo">Enlace a Google</a>
+ <p>
+        Ruta Absolutas
+        <a href="http://www.google.com.bo">Enlace a Google</a>
+
+        Ruta Relativa (misma carpeta)
+        <a href="ejemplo_1.html">Enlace a Google</a>
+        <a href="./ejemplo_1.html">Enlace a Google</a>
+
+        Ruta Relativa (carpeta superior)
+        <a href="../ejemplo_1.html">Enlace a Google</a>
+
+        Ruta Relativa (carpeta superior + superior)
+        <a href="../../ejemplo_1.html">Enlace a Google</a>
+        
+        Ruta Relativa (carpetar raiz)
+        <a href="/ejemplo_1.html">Enlace a Google</a>
+ </p>
+
+ Tablas
+ ======
+
+ <table></table> 
+
+ <td></td> -> (table date) Para columnas
+ <tr></tr> -> (table row)  Para filas
+
+ 2*2
+ Ejemplo:
+ =========
+ <table>
+        <tr>
+                <td></td>
+                <td></td>
+        </tr>
+        <tr>
+                <td></td>
+                <td></td>
+        </tr>
+ </table>
+
+ colspan combinar columnas
+
+ rowspan combinar filas
