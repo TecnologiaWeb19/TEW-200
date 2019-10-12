@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejemplo de Formularios</title>
+</head>
+<body>
+    <form>
+        Introduzca su Nombre:
+        <input type="text" id="nombre"><br>
+        Introduzca su Edad:
+        <input type="text" id="edad"><br>
+        <input type="button" value="Mostrar" onclick="mostrar()">
+    </form>
+    <script>
+        function mostrar(){
+            var nom = document.getElementById("nombre").value;
+            var ed = document.getElementById("edad").value;
+            //document.write("Su nombre es: " + nom);
+            //document.write("Y tu edad es: " + ed);
+            alert("Su nombre es: " + nom + " Y tu edad es: " + ed);
+        }
+    </script>
+</body>
+</html>
